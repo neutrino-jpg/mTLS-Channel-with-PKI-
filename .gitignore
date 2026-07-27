@@ -212,6 +212,23 @@ tempCodeRunnerFile.py
 # Marimo
 marimo/_static/
 marimo/_lsp/
+
+#PKI (ключи, сертфиикаты)
+*.key
+*.pem
+*.csr
+*.srl
+# Папка с PKI (если там ключи)
+pki/
+
+# Логи (могут содержать IP, имена пользователей)
+logs/
+*.log
+
+# Конфиги с паролями (если есть)
+*.env
+config.yml
+
 __marimo__/
 
 # Streamlit
